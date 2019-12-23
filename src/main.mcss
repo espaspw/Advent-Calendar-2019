@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: img("mountains.jpg");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.red-background {
+  background: red;
+}
+
+.blue-text {
+  color: blue;
+}
