@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400&display=swap&subset=japanese');
+.japanese {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container {
+  padding: 30px 0;
+}
+
+.header {
+  display: flex;
+  padding: 10px;
+  border-radius: 0;
+  border-bottom: 1px solid #708090aa;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+
+.username {
+  letter-spacing: 0.5px;
+  font-weight: normal;
+}
+
+.date {
+  font-weight: 300;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.entry-text {
+  white-space: pre-line;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.hidden {
+  display: none;
+}

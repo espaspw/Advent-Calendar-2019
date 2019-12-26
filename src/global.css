@@ -8,18 +8,15 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-image: img("mountains.jpg");
+  color: #444e58;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
+ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  padding-left: 15px;
 }
 
-.red-background {
-  background: red;
-}
-
-.blue-text {
-  color: blue;
+p {
+  line-height: 1.6rem;
 }

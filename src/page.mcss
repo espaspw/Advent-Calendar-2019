@@ -1,0 +1,23 @@
+.title {
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.emoji {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  margin: 0 5px;
+}
+
+.image {
+  max-width: 100%;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
+  border-radius: 5px;
+}

@@ -18,9 +18,9 @@ module.exports = merge(
     },
   }),
   parts.loadImages({
-    options: {
-      limit: 10000,
-      name: '[hash].[ext]',
+    urlLoaderOptions: {
+      limit: 5000,
+      name: '[hash]-[name].[ext]',
     },
   }),
   {
@@ -37,9 +37,6 @@ module.exports = merge(
           google: 'notranslate',
         },
       }),
-      // new HTMLWebpackPlugin({ 
-        
-      // }),
       new HTMLWebpackExcludeAssetsPlugin(),
       new FriendlyErrorsWebpackPlugin(), 
       new MiniCSSExtractPlugin({
