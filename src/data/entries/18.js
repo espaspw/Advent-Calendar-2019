@@ -14,7 +14,7 @@ const entry = `<p>:pusheensad:
 export default {
   username: 'Cloud Chulainn',
   id: '242314402697576449',
-  entryNumber: 24,
+  entryNumber: 18,
   date: 'December 24, 2019',
   lang: 'Japanese',
   avatar: 'cloud.png',

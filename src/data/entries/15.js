@@ -32,8 +32,8 @@ then, why don't you go into the world of books with me?</p>
 export default {
   username: 'kureina',
   id: '287705057359822851',
-  entryNumber: 22,
-  date: 'December 22, 2019',
+  entryNumber: 15,
+  date: 'December 21, 2019',
   lang: 'English',
   avatar: 'kureina.png',
   emojis: ['roosantagift', 'bow2'],

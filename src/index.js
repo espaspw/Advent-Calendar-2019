@@ -40,16 +40,20 @@ function createImageMapFromImageArray(images) {
 function fetchEntryPromises(entryNumbers) {
   const entryDataPromises = entryNumbers.map((entryNumber) => {
     return import(`./data/entries/${entryNumber}.js`).then((entryData) => {
+        if (entryData.default.avatar == null) 
+          return { ...entryData.default, avatar: null }
         return import(`./data/avatars/${entryData.default.avatar}`).then((avatar) => {
             return {...entryData.default, avatar: avatar.default}
         })
+      }).catch((error) => {
+        return { username: 'Not found', date: 'Not found', entry: '' }
       })
   })
   return entryDataPromises
 }
 
 async function main() {
-  const entryNumbers = [1, 2, 3, 4, 22, 24]
+  const entryNumbers = [1, 2, 3, 4, 16, 17, 18, 19, 20]
   const entryDataPromises = fetchEntryPromises(entryNumbers)
   
   await Promise.all(entryDataPromises).then(async (entryData) => {
@@ -89,6 +93,6 @@ async function main() {
   })
 }
 
-main();
+main()
 
 // export default main
