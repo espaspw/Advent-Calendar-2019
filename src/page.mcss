@@ -7,17 +7,20 @@
   width: 90%;
   max-width: 800px;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .emoji {
   height: 25px;
-  width: 25px;
-  position: absolute;
+  width: auto;
+  position: relative;
+  top: 3px;
   margin: 0 5px;
 }
 
 .image {
   max-width: 100%;
+  max-height: 400px;
   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
   border-radius: 5px;
 }

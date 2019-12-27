@@ -36,5 +36,6 @@ export default {
   date: 'December 22, 2019',
   lang: 'English',
   avatar: 'kureina.png',
+  emojis: ['roosantagift', 'bow2'],
   entry,
 }

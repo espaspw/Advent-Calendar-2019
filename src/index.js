@@ -49,7 +49,7 @@ function fetchEntryPromises(entryNumbers) {
 }
 
 async function main() {
-  const entryNumbers = [1, 2, 22, 24]
+  const entryNumbers = [1, 2, 3, 4, 22, 24]
   const entryDataPromises = fetchEntryPromises(entryNumbers)
   
   await Promise.all(entryDataPromises).then(async (entryData) => {
