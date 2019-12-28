@@ -7,7 +7,6 @@ import entry from './entry'
 function replaceAll(str, map) {
   const regEx = new RegExp(Object.keys(map).join('|'), "gi")
   return str.replace(regEx, (matched) => {
-    console.log(matched)
     return map[matched]
   })
 }
@@ -53,7 +52,7 @@ function fetchEntryPromises(entryNumbers) {
 }
 
 async function main() {
-  const entryNumbers = [1, 2, 3, 4, 16, 17, 18, 19, 20]
+  const entryNumbers = [1, 2, 3, 4, 5, 6, 7, 16, 17, 18, 19, 20]
   const entryDataPromises = fetchEntryPromises(entryNumbers)
   
   await Promise.all(entryDataPromises).then(async (entryData) => {
@@ -74,7 +73,6 @@ async function main() {
         })
         await Promise.all(imagePromises).then(images => {
           const imageMap = createImageMapFromImageArray(images)
-          console.log(imageMap)
           entryText = replaceAll(entryText, imageMap)
         })
       }

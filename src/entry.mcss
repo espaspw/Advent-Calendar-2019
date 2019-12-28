@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400&display=swap&subset=japanese');
+
 .japanese {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.translation {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  padding-left: 25px;
+  margin-bottom: 25px;
+  color: #6e7881;
+  display: inline-block;
+  border-left: 2px solid #6e788133;
+}
+
 .container {
-  padding: 30px 0;
+  padding: 20px 0;
+  margin-bottom: 50px;
 }
 
 .header {
@@ -40,6 +52,7 @@
   white-space: pre-line;
   font-weight: 300;
   padding: 20px 0;
+  line-height: 1.6rem;
 }
 
 .hidden {

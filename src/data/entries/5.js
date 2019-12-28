@@ -1,0 +1,25 @@
+import entryStyles from '../../entry.mcss'
+
+const entry = `<p><strong>アドベント・カレンダー エントリー | 19/12/11 - 12:00 (JST) (Scroll down for English Version)</strong></p>
+<p>どうも、初めまして！（多分(´ω｀)　こちらは<em>伊藤</em>です。なんか、このイベントに<em>参加</em>するのは<em>初</em>めてなので、やはりちょっと<em>難</em>しいです。<em>論文</em>の<em>感</em>じかな<em>ｗ</em>　まあー　いいか、おそらくいい<em>練習</em>ですよね～ （<em>来年JLPT N1</em>をやっていますから。　<em>日本語</em>とか、<em>論文</em>とか、ほんまに<em>苦手</em>だよ。<em>難</em>しいけど、<em>頑張</em>ります！このエントリーを<em>読</em>むのに<em>長</em>いですので、<em>最後</em>まで<em>読</em>んでくれて<em>申</em>し<em>上</em>げます！</p>
+<p><em>質問</em>がいっぱいあるのですね～！どうしよう？<em>( ,,\`･ω･\´)</em>んんん。<em>決</em>められないから、すべてやりましょう！ <em>「１．好</em>きなものについて」って　ふわ～　ちょっと<em>恥</em>ずかしすぎ<em>(〃ﾉωﾉ)</em>。でも、<em>正直</em>なところ、んんんー　<em>今年</em>は「いい<em>友達</em>を<em>作</em>りました」ってどう<em>ｗ</em>？いやいや、<em>真面目</em>です！というか、<em>私</em>は<em>最低</em>の<em>友達</em>ですが（やっと<em>気</em>づいた！！、でも<em>皆</em>が<em>理解</em>していますんだ！ご<em>迷惑</em>をかけて<em>申</em>し<em>訳</em>ありませんでした！お辞儀* カカシちゃんとか、ミスターグルグル様とか、皆が大好きです！！！！（泣く　んー　とりあえず 雰囲気を変えましょうか～　ちょっと真面目すぎるじゃない？ｗ　まあ－　(〃ﾉωﾉ)　続きまして　「２．新年の抱負」。　んー　来年はどんな年にしたいだろうか　ふぇー　まあー　どうすればいい？んー　日本語がペラペラ喋りたい？って思ったんです～　まったく、「あきらめた」って言ったけど、でも　あああ　ペラペラしたいなぁぁ～！ってというわけで　次の質問をお願い～！（だれと話してるの？馬鹿みたい。　「３．過去に起きた忘れられない事」　ふぁー（デジャブ。　はーい　スキップしますー　つづー　あー　やめて！　はい　答えるよ！　だから　いじめをやめるよ！　んー　多分「あの人」ですよね。まあー　私のことを笑わないでね。今は振られたけど（人間関係が難しいすぎる。　ひゃー　なんか　学校では恋愛もできないな～。ポッキーゲームとか、デートなど。とても楽しく過ごしたんだ。ほんまに。でも　結局もう振られたわ～。　ほんと不運だわ～ｗ。ってというわけで。最後の問題では「４．どこか行ってみたいところ」　いや　えっとね、みんな知ってるでしょう！？日本だよ　日本！　秋葉原！秋葉原！抱き枕！超行きたい～！（変な人みたい。　それに、来年欧州に行ってみたい！観光をしにそこを訪問したいんです。（レクシ様と写真撮影にやりたいきゃ。はーい　終わりました～　本当に！冗談じゃない！まあー　不可能なことをできた！って、私の下手な日本語をご読了でくれてありがとうございました！どっちに間違いをするならば、ご遠慮なく誤りを指摘してください！じゃ、最後に、来年も、皆よろしくお願いします！(明けましてやクリスマスおめでとうございますにゃん！</p>
+<span class="${entryStyles.translation}"><p><strong>(EN VERSION) (because I want everyone to understand)</strong></p><p><strong>Advent Calendar Entry | December 11, 2019 - 12:00pm JST</strong></p><p>Hello! Nice to meet you! (Probably first time meeting you(*´ω｀) It’s ITO. This is the first time that I’m participating this event, I thought to myself, Isn’t this a little too hard for me? Feels like I’m writing a research paper www. Eh whatever, Probably good practice too as I’m doing JLPT N1 next year. (Hopefully). Whether it’s Japanese or a paper, I’m bad either way, but I will try my best! Please read to the end of this really long entry, I sincerely appreciate your patience. 
+There’s a lot of questions that I can answer, which one should I do? ( ,,\`･ω･\´) Well since I’m indecisive, let’s do them all! (1. Your favourite thing / assuming this year) Huwa~ I’m a bit shy about this (〃ﾉωﾉ). Though, honestly, Hmm, How about I made lotta good friends this year? w Yeah I’m being honest! Speaking of which, I know I’m the worst friend ever (Finally noticed!?, but everyone around me were being understanding! Sorry for causing all of my friends inconveniences this year! bow Whether it’s kakashi or Mrgg, ILY ALL!!!! (cry. For now, let’s change the atmosphere, don’t you feel it’s a bit too serious right now? w. (〃ﾉωﾉ) Next question, (2. New Year’s Resolution.) What should I do about next year? Hmmm.. I want to speak good Japanese? Let’s go with that. sigh I said I gave up, but I still want to be fluent yaaaaaaaaaaa. Next question~! (Who tf are you talking to? Sounds like a dumdum smh. (3. An interesting experience you had.) Huwa~ (Déjà vu. Alright I’m skipping this.  Nex- AH, STOP! ALRIGHT I WILL ANSWER THE QUESTION! SO STOP BULLYING ME AHHHHH. If I were to say, It’s gotta be (that person yes it&#39;s a she).
+Well, don’t laugh at this. We already broke up (Relationships are too hard. Hiya~ School is not the place for finding partners lel. Whether its Pocky Game or Going up on a date. Had good times. For real. Though we still broke up in the end. I’m really unlucky rofl. Well. Last question, (4. Where do you want to go?) Uhhhh, Everyone knows right? It’s Japan, Japan! Akihabara! Akihabara! Dakimakura! (TL Note: typically depicted as waifu pillows) I really wanna go~! (weird guy ok. Also, I want to visit Europe next year. (I want to do a photoshoot with Lexyyyyyysama. Alright~ That’s everything. For real! I felt like I just accomplished Mission: Impossible. And, thank you for reading my bad Japanese (English too) writing. If there’s a mistake, Please feel free to correct me. Finally, It’s truly a pleasure to have all of you that survived to the end of this, looking forward to having a good time with you all next year! (Happy early New Year and Christmas!)
+Sorry for filling up your screen
+Also the kanji is messed up because of a lot of reasons that I&#39;m too lazy to fix</p></span>
+::0::`
+
+
+
+export default {
+  username: 'Hayasaka',
+  alias: 'chino',
+  id: '266001128318042113',
+  entryNumber: 5,
+  date: 'December 11, 2019',
+  lang: 'Japanese',
+  avatar: 'hayasaka.jpg',
+  images: ['0'],
+  entry,
+}
