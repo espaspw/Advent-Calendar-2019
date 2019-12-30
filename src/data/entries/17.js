@@ -14,6 +14,6 @@ export default {
   entryNumber: 17,
   date: 'December 22, 2019',
   lang: 'Japanese',
-  // avatar: 'kureina.png',
+  avatar: 'alice.jpg',
   entry,
 }

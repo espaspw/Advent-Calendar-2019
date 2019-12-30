@@ -21,9 +21,9 @@ And coding on obscure system is, &quot;fun&quot;.</p>
 export default {
   username: 'Chromaryu',
   id: '135788476841852929',
-  entryNumber: 20,
+  entryNumber: 21,
   date: 'December 26, 2019',
   lang: 'English',
-  // avatar: '',
+  avatar: 'chromaryu.jpg',
   entry,
 }

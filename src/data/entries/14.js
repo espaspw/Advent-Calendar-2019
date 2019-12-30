@@ -17,6 +17,6 @@ export default {
   entryNumber: 14,
   date: 'December 19, 2019',
   lang: 'Japanese',
-  // avatar: 'solo.jpg',
+  avatar: 'solo.jpg',
   entry,
 }

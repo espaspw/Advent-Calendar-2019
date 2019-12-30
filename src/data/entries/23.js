@@ -35,6 +35,6 @@ export default {
     type: 'gif',
   },
   'waGuitar', 'k3llyENG', 'nom'],
-  // avatar: '',
+  avatar: 'taco.jpg',
   entry,
 }

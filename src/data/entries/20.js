@@ -35,6 +35,6 @@ export default {
   entryNumber: 20,
   date: 'December 25, 2019',
   lang: 'English',
-  // avatar: '',
+  avatar: 'ayumminu.jpg',
   entry,
 }

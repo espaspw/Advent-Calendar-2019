@@ -21,6 +21,6 @@ export default {
   date: 'December 29, 2019',
   lang: 'Japanese',
   emojis: ['rooFat', 'pepewhy', 'rooHappy', 'blobCouple', 'roosantayay'],
-  // avatar: '',
+  avatar: 'nick.jpg',
   entry,
 }

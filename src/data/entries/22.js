@@ -21,6 +21,6 @@ export default {
   entryNumber: 22,
   date: 'December 27, 2019',
   lang: 'Japanese',
-  // avatar: '',
+  avatar: 'pentacal.jpg',
   entry,
 }
