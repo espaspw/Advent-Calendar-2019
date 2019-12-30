@@ -1,0 +1,39 @@
+._1o4XrJgdCyl_140GQ-iE5p {
+  position: sticky;
+  background: #abb0c3aa;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 100;
+  transition: background .2s linear;
+}
+
+._3xXzUW1j4jhJ-Uk7w7K5HG {
+  background: none;
+}
+
+.xEi7ko1NwnW8me6cIrbLq {
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+._39evny_T0zfMPQqpj57AM_ {
+  flex: 0 1 calc(100%/7);
+  text-align: center;
+  padding: 5px 0;
+}
+
+._39evny_T0zfMPQqpj57AM_:hover {
+  background: #aaaaaaee;
+  color: white;
+}
+
+._1XBnnPJUbU3NfJhNf6BBYd {
+  color: white;
+  font-weight: bold;
+}
