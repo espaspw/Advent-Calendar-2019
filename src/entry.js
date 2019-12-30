@@ -6,7 +6,10 @@ export default (props = {}) => {
   const japaneseEntryClass = props.lang === 'Japanese' ? entryStyles['japanese'] : ''
   const entryDiv = crel('div', {class: `${entryStyles['entry-text']} ${japaneseEntryClass}`})
   entryDiv.innerHTML = props.entry
-  return crel('article', {class: entryStyles['container']}, 
+  return crel('article', {
+      class: entryStyles['container'], 
+      id: `entry-${props.entryNumber}`,
+    }, 
     crel('div', {class: entryStyles['header']},
       crel('img', {src: props.avatar, class: entryStyles['avatar']}),
       crel('div', {class: entryStyles['author-info']},

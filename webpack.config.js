@@ -8,8 +8,8 @@ const development = require('./config/development')
 const common = merge(
   {
     entry: {
-      render: path.join(__dirname, 'src', 'index.js'),
-      canvas: path.join(__dirname, 'src', 'test.js'),
+      render: path.join(__dirname, 'src', 'render.js'),
+      index: path.join(__dirname, 'src', 'index.js'),
     },
     output: {
       path: path.join(__dirname, 'dist'),

@@ -28,7 +28,7 @@ module.exports = merge(
       new HTMLWebpackPlugin({ 
         title: 'EJLX Advent Calendar 2019',
         hash: true,
-        template: '!!prerender-loader?string&entry=./src/index.js!./src/index.js',
+        template: '!!prerender-loader?string&entry=./src/render.js!./src/render.js',
         excludeAssets: [/render\.bundle\.js/],
         meta: {
           charset: { charset: 'utf-8' },
