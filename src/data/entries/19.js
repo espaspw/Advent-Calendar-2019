@@ -1,40 +1,23 @@
-const entry = `<p><strong>Advent Calendar: the 25th of December 2019.
-&quot;1.My favorite thing&quot; and  &quot;2.My New Year&#39;s Resolution&quot;</strong></p>
-<p>Merry Christmas!
-Did you get a present from Santa Claus? 
-Or did you become Santa Claus for someone?
-...Me? Of course, he hasn&#39;t come to my house yet.
-By the way, it’s my first time participating in this kind of event. So I&#39;m very nervous and my palms are sweaty. But I’m going to do my best. Ok, let&#39;s go!</p>
-<p><strong>1.My favorite thing</strong></p>
-<p>I love animals, cartoons, Japanese animes, novels, editing videos and drawing art.
-Especially, cartoons are very special for me, but today is Christmas day so I&#39;ll talk about my memories.
-When I was in elementary school, I wrote a letter to Santa Claus in December.
-&quot;I&#39;ll be a good kid, so I want to get the game to grow hamsters&quot;(yes, I liked games)
-The present was on the side of my pillow. 
-A few years later, in December, I wrote a letter to him again. 
-&quot;I want to get the game of Harvest Moon&quot;
-But unfortunately, the present wasn&#39;t on the side of my pillow. I was sad. Then, my father said
-&quot;Ah, I just saw Santa Claus. He seems to be in a hurry and put something in the post&quot;
-I heard father&#39;s words, I was sure that Santa Claus doesn&#39;t exist in this world!!
-The present was truly in the post...
-Though I was sad, I thought my heart had grown up in this happening.
-Then, I decided to give a present to my family instead of getting it. I realized it was important to think about someone. 
-In December of this year, I bought a small and easy to use a mixer for my mother. I plan to share and use it.
-Yes, Santa Claus always exists in my(your) heart.</p>
-<p><strong>2.My New Year&#39;s Resolution</strong></p>
-<p>-Writing short  novels in English
--Creating short videos
-I like to use Adobe.  I want to create short animation videos  on Adobe animation. I don&#39;t know if I can come true, but I&#39;m very interested now. First of all, I must buy a new PC!</p>
-<p>Thank you for reading my Advent Calendar !!</p>`
-
-
+const entry = `<p>:pusheensad:
+<strong>やるだけやってみよう
+アドベント・カレンダー
+12.24.2019
+クリスマスの前夜</strong></p>
+<p>初めまして、私は自転車です。名前はまだないですが、クラウドと呼んでもいいです。ミームはさておき、このアドベントカレンダーを始めましょう。ここに4ヶ月ぐらいしかいなかったですから、これに参加するのは初めてです。しかも、多くの人は私のことを知らないかもしれません。ですから、皆さんの私について知らないことを詳しく話す代わりに私が好きなフェイトについて話したいと思います。</p>
+<p>去年のクリスマスは私にとっては初めて祝ったクリスマスですし、私の番はクリスマスイブですから、「私が好きなもの」として、前のクリスマスに姉からもらったセイバーのぬいぐるみを決めました。偶然にも、そのプレゼントをもらった日は日本語勉強し始めるのと同じ日です。</p>
+<p>実は、クリスマスにもらわなかったです。私は京都に住んでいて、姉は大阪に住んでいて、人混みが私たちも不安にさせますから、姉の誕生日の27日まで会いようがありませんでした。あの日、見返りのプレゼントを期待せずにカーニバルファンタズムのブルーレイと原田たけひとの画集をクリスマスも誕生日のプレゼントとして持ってきました。でも、バスキン・ロビンスで姉と会ったら、姉もプレゼントを持ってきたのに気づきました。</p>
+<p>あの日まで、そうやってプレゼントをもらったことがなかったですから、「クラウドのものです」と聞いた途端に泣き出さないではいられなかったのは当然の反応だと思います。この場を借りてナンバウオークのバスキン・ロビンスの職員に私のみっともない行動が問題を引き起こしたら謝りたいと思います。今でもその思い出を大切にするのに、そのセイバーを見かけるにつけて人前で泣き崩れたことを思い出して恥ずかしくなります。</p>
+<p>受信自体の重要性に加えて、セイバーですから私にとっては非常に特別なものです。考えてみると、それをもらって以来ベッドから動かしていません。とにかく、私と姉にとってフェイトステイナイトは懐かしくて大切です。困難な時期に私たちに助かりましたからです。しかも、そのディーンスタジオに創られたアニメをきっかけにしてアニメーターになると決めました。(というか、どれほどアニメーションの品質が悪かったからです。)</p>
+<p>つまり、彼女は私の唯一の家族ですから、私たちの仲や共通の関心の象徴として重視しています。見直したら、この話は、実際の出来事に比べて、劇的すぎそうだと思います…　恐らく今年のクリスマスは一人で祝いますが、そのセイバーは私を人生が良くなる可能性があることを思い出させます。一度も祝わなかった19年後に初めてクリスマスを祝えったら、他のことも改善できます。</p>
+<p>皆さん、私の間違いだらけの話を読んでくれてありがとうございます。今日はクリスマスイブですから、特別な話を書きたかったですが、もう参加した皆さんと比べたらそんなに面白くなくて長すぎてすみません。読んで楽しんでいただければ幸いです！メリークリスマス！</p>`
 
 export default {
-  username: 'ayumminu',
-  id: '473013785884622848',
+  username: 'Cloud Chulainn',
+  id: '242314402697576449',
   entryNumber: 19,
-  date: 'December 25, 2019',
-  lang: 'English',
-  // avatar: '',
+  date: 'December 24, 2019',
+  lang: 'Japanese',
+  avatar: 'cloud.png',
+  emojis: ['pusheensad'],
   entry,
 }

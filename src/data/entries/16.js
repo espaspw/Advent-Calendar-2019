@@ -1,19 +1,41 @@
 const entry = 
-`<p><strong>12/22 ADVENT CALENDAR</strong></p>
-<p>アリスです！！！</p>
-<p>日本語で長いテキストを書くのは私にとって珍しいかもしれませんが、私のアドベントカレンダーの記事を楽しんでください！</p>
-<p>今日は、多くの人が知らないかもしれない好きなことについて書きたいと思います。
-私の世界で一番好きなことは本当に”物”ではなく、アマンダっていう親友との関係です。(アイテムではないので、書いてもいいかな〜w！) </p>
-<p>早稲田大学に留学中に会ったのですが、すぐに仲良くなりました。クラスで私の隣に彼女が座ったときに初めて会いました。かわいい日記を持っていたので彼女に気づきました！日記で書いた絵がきれいだと思い、彼女と話し始めました。どう説明したらいいかわかりませんが、すぐに彼女との深いつながりを感じました。衝動的に、私と一緒に昼食に行くように頼みました。あとは知っての通りです！</p>
-<p>その時は知りませんでしたが、私たちは、ともに過去の問題に苦しんでいました。多くの過去の困難と弱点がありつつも、お互いを信頼しあえる関係になれました。彼女の存在は私を強くして、私たちはお互いを支え合いました。668日前に羽田空港で別れを告げましたが、電話とインスタでよく話します。私の大好きなこと、そして私にとって貴重なことは、私が彼女と持っているこの友情です！
-私の記事を読んでくれてありがとうございます！！</p>`
+`<p><strong>My favorite thing</strong></p>
+<p>What if you could travel to other countries without going anywhere?
+No, it's not virtual reality I'm talking about.
+It is a book, reading.
+It could take you wherever you want to go.
+It could make you whatever you want to be.</p>
+<p>I used to read books in Japanese.
+My favorite genre is romantic suspense, but it's not popular genre in Japan, unfortunately.
+Most of books I read were translated ones from English to Japanese.
+Sometimes they had a sequel that would take for months to be translated into Japanese .</p>
+<p>One day, I felt like I couldn't wait until the day the translated sequel would be published.
+I don't remember which book it was.
+I decided to buy the book and read it in English.
+My English journey has started there.</p>
+<p>The first book took me about six months to finish.
+I had to look up a dictionary each time I encountered the new words.
+It sometimes took me a week to read only one page.
+Although reading the first English book was hard and tough, it gave me a satisfaction 
+that I was able to feel what the author wanted to tell us through her own words.</p>
+<p>Reading a translated book is fun but it can be said that the translated book could be affected by the translator's ideas or thoughts.
+I had been feeling like I couldn't get the authors intention directly if I read it through the translator's eyes.</p>
+<p>Since then, I've been reading books in English.
+Sometimes I was a sniper protecting my loved one in the middle of jungle.
+Sometimes I was traveling with a drop dead gorgeous handsome guy in the freezing Alaska.</p>
+<p>Books give us so many opportunities and adventures that you might not be able to experience in your life.
+Once you open books, you would realize that you are in other worlds.
+Are you sold?
+then, why don't you go into the world of books with me?</p>
+<p><em>(Thank you for reading my advent calendar :roosantagift::bow2:)</em></p>`
 
 export default {
-  username: 'babygirl1997',
-  id: '157638719061491714',
+  username: 'kureina',
+  id: '287705057359822851',
   entryNumber: 16,
-  date: 'December 22, 2019',
-  lang: 'Japanese',
-  // avatar: 'kureina.png',
+  date: 'December 21, 2019',
+  lang: 'English',
+  avatar: 'kureina.png',
+  emojis: ['roosantagift', 'bow2'],
   entry,
 }
