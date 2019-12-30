@@ -4,15 +4,31 @@ function getDocumentOffsetOfNode(node) {
   return node.getBoundingClientRect().top + window.pageYOffset
 }
 
-setTimeout(() => {
-  const entries = document.querySelectorAll('article')
-  const scrollOffsets = Array.from(entries).map(entry => {
+function getDocumentOffsets(nodes) {
+  return Array.from(nodes).map(entry => {
     return getDocumentOffsetOfNode(entry)
   })
+}
 
+function debounce(ms, func) {
+  let debouncing = false
+  return () => {
+    if (debouncing) return;
+    func()
+    debouncing = true
+    setTimeout(() => {
+      debouncing = false;
+    }, ms)
+  }
+}
+
+setTimeout(() => {
+  const entries = document.querySelectorAll('article')
   const topbar = document.querySelector(`.${topbarStyles['main-container']}`)
   const topbarButtons = document.querySelectorAll(`.${topbarStyles.button}`)
- 
+
+  let scrollOffsets = getDocumentOffsets(entries) 
+
   topbarButtons.forEach((topbarButton, idx) => {
     topbarButton.addEventListener('click', () => {
       window.scrollTo({
@@ -23,11 +39,7 @@ setTimeout(() => {
     })
   })
 
-
-  let debouncing = false
-  document.addEventListener('scroll', () => {
-    if (debouncing) return
-    console.log(getDocumentOffsetOfNode(entries[0]))
+  function updateTopbar() {
     if (window.pageYOffset < getDocumentOffsetOfNode(entries[0])) {
       topbar.classList.add(topbarStyles['top-of-page'])
     } else {
@@ -40,9 +52,11 @@ setTimeout(() => {
         topbarButton.classList.remove(topbarStyles['active'])
       }
     })
-    debouncing = true
-    setTimeout(() => {
-      debouncing = false;
-    }, 50)
-  })
+  }
+
+  updateTopbar()
+  document.addEventListener('scroll', debounce(50, updateTopbar))
+  window.addEventListener('resize', debounce(50, () => {
+    scrollOffsets = getDocumentOffsets(entries)
+  }))
 }, 5000)

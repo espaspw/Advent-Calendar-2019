@@ -1,6 +1,6 @@
 .main-container {
   position: sticky;
-  background: #aaaaaaaa;
+  background: #abb0c3aa;
   top: 0;
   width: 100%;
   padding: 10px 0;
@@ -40,4 +40,5 @@
 
 .active {
   color: white;
+  font-weight: bold;
 }
