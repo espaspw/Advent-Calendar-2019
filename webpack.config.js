@@ -18,8 +18,6 @@ const common = merge(
   },
 )
 
-
-console.dir(merge(common, development), {depth:100})
 module.exports = mode => {
   if (mode === 'production') {
     return merge(common, production, { mode })

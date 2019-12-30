@@ -116,6 +116,6 @@ async function main() {
   })
 }
 
-main()
+// main()
 
-// export default main
+export default main

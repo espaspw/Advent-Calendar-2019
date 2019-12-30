@@ -22,11 +22,6 @@
   flex-wrap: wrap;
 }
 
-.sticky-container {
-  height: 100%;
-  display:
-}
-
 .button {
   flex: 0 1 calc(100%/7);
   text-align: center;

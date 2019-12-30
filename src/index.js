@@ -22,7 +22,7 @@ function debounce(ms, func) {
   }
 }
 
-setTimeout(() => {
+// setTimeout(() => {
   const entries = document.querySelectorAll('article')
   const topbar = document.querySelector(`.${topbarStyles['main-container']}`)
   const topbarButtons = document.querySelectorAll(`.${topbarStyles.button}`)
@@ -56,7 +56,10 @@ setTimeout(() => {
 
   updateTopbar()
   document.addEventListener('scroll', debounce(50, updateTopbar))
+  document.addEventListener('scroll', debounce(1000, () => {
+    scrollOffsets = getDocumentOffsets(entries)
+  }))
   window.addEventListener('resize', debounce(50, () => {
     scrollOffsets = getDocumentOffsets(entries)
   }))
-}, 5000)
+// }, 5000)
