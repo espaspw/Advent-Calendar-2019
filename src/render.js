@@ -1,7 +1,9 @@
 import crel from 'crel'
 import globalStyles from './global.css'
 import pageStyles from './page.mcss'
+
 import entry from './entry'
+import topbar from './top-bar'
 
 
 function replaceAll(str, map) {
@@ -65,6 +67,7 @@ function fetchEntryPromises(entryNumbers) {
 }
 
 async function main() {
+  const entryDates = [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19.1, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
   const entryNumbers = range(26, 1)
   const entryDataPromises = fetchEntryPromises(entryNumbers)
   
@@ -97,8 +100,15 @@ async function main() {
     await Promise.all(entryComponentPromises)
       .then(entryComponents => {
         document.body.appendChild(
+          crel('h1', {class: pageStyles['title']}, 'EJLX Advent Calendar 2019'),
+        )
+        document.body.appendChild(
+          topbar({
+            entryDates,
+          })
+        )
+        document.body.appendChild(
           crel('div', {class: pageStyles['container']}, 
-            crel('h1', {class: pageStyles['title']}, 'EJLX Advent Calendar 2019'),
             ...entryComponents
           )
         )

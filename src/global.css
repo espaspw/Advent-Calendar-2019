@@ -21,3 +21,11 @@ a {
   color: grey;
   font-family: "Roboto", sans-serif;
 }
+
+button {
+  border: none;
+  background: none;
+  font-family: inherit;
+  cursor: pointer;
+  color: inherit;
+}

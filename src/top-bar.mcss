@@ -1,0 +1,43 @@
+.main-container {
+  position: sticky;
+  background: #aaaaaaaa;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 100;
+  transition: background .2s linear;
+}
+
+.top-of-page {
+  background: none;
+}
+
+.button-container {
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.sticky-container {
+  height: 100%;
+  display:
+}
+
+.button {
+  flex: 0 1 calc(100%/7);
+  text-align: center;
+  padding: 5px 0;
+}
+
+.button:hover {
+  background: #aaaaaaee;
+  color: white;
+}
+
+.active {
+  color: white;
+}

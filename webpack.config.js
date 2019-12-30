@@ -9,7 +9,7 @@ const common = merge(
   {
     entry: {
       render: path.join(__dirname, 'src', 'render.js'),
-      index: path.join(__dirname, 'src', 'index.js'),
+      main: path.join(__dirname, 'src', 'index.js'),
     },
     output: {
       path: path.join(__dirname, 'dist'),
