@@ -27,6 +27,20 @@ module.exports = merge(
     },
   }),
   {
+    module: {
+      rules: [
+        {
+          test: '/src/index.js',
+          exclude: /(node_modules)/,
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env'],
+            },
+          },
+        },
+      ],
+    },
     plugins: [
       new HTMLWebpackPlugin({ 
         title: 'EJLX Advent Calendar 2019',

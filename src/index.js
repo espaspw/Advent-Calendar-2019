@@ -59,6 +59,10 @@ function debounce(ms, func) {
   document.addEventListener('scroll', debounce(1000, () => {
     scrollOffsets = getDocumentOffsets(entries)
   }))
+  document.addEventListener('touchmove', debounce(50, updateTopbar))
+  document.addEventListener('touchmove', debounce(1000, () => {
+    scrollOffsets = getDocumentOffsets(entries)
+  }))
   window.addEventListener('resize', debounce(50, () => {
     scrollOffsets = getDocumentOffsets(entries)
   }))
