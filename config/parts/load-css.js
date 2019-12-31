@@ -12,7 +12,8 @@ exports.loadCSS = ({ include, exclude } = {}) => ({
             options: {
               modules: true,
             },
-          }
+          },
+          'postcss-loader',
         ],
       },
       {
@@ -22,6 +23,7 @@ exports.loadCSS = ({ include, exclude } = {}) => ({
         use: [
           'style-loader',
           'css-loader',
+          'postcss-loader',
         ],
       },
     ],

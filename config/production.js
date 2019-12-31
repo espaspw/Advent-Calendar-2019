@@ -9,13 +9,16 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = merge(
   parts.extractCSS({
-    use: 'css-loader',
-    useForModules: {
-      loader: 'css-loader',
-      options: {
-        modules: true,
+    use: ['css-loader', 'postcss-loader'],
+    useForModules: [
+      {
+        loader: 'css-loader',
+        options: {
+          modules: true,
+        },
       },
-    },
+      'postcss-loader',
+    ],
   }),
   parts.loadImages({
     urlLoaderOptions: {
